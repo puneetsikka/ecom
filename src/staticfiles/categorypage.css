@@ -1,0 +1,27 @@
+/* CategoryList.css */
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-item {
+    background-color: #f3f3f3;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .category-item:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+  }
+  
+  /* Optional: Adjust the colors, fonts, and sizes to match your design */
+  
